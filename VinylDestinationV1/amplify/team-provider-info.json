@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vinyldestinationv1-dev-110825-authRole",
+      "UnauthRoleArn": "arn:aws:iam::590183702985:role/amplify-vinyldestinationv1-dev-110825-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::590183702985:role/amplify-vinyldestinationv1-dev-110825-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-vinyldestinationv1-dev-110825-deployment",
+      "UnauthRoleName": "amplify-vinyldestinationv1-dev-110825-unauthRole",
+      "StackName": "amplify-vinyldestinationv1-dev-110825",
+      "StackId": "arn:aws:cloudformation:us-east-2:590183702985:stack/amplify-vinyldestinationv1-dev-110825/f7703000-c052-11ee-8877-06e1e46cde03",
+      "AmplifyAppId": "d26zotuq2h5v4k"
+    }
+  }
+}
