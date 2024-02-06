@@ -19,6 +19,9 @@ export class HomePageComponent {
   // }
   testArr: Array<string> = [
     'Vinyl One',
-    'Vinyl Two'
+    'Vinyl Two',
+    'next vinyl', 
+    'Vinyl Three',
+    'Vinyl Four'
   ];
 }

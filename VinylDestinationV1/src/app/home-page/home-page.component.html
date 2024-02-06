@@ -1,6 +1,11 @@
 <p>home-page works!</p>
 
-<ng-container *ngFor="let str of testArr"> 
-    <app-vinyl-card vinylName="{{str}}">
-    </app-vinyl-card>
-</ng-container>
+<div class="row" style="margin: 2rem;">
+    <ng-container *ngFor="let str of testArr"> 
+        <div class="col-3" style="">
+            <app-vinyl-card vinylName="{{str}}" style="width: 50%;">
+        </app-vinyl-card>
+        </div>
+        
+    </ng-container>
+</div>
