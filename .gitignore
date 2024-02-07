@@ -7,7 +7,7 @@
 /bazel-out
 
 # Node
-/node_modules
+VinylDestinationV1/node_modules
 npm-debug.log
 yarn-error.log
 
@@ -29,7 +29,7 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/.angular/cache
+VinylDestinationV1/.angular/cache
 .sass-cache/
 /connect.lock
 /coverage
@@ -42,12 +42,12 @@ testem.log
 Thumbs.db
 
 #amplify-do-not-edit-begin
-amplify/\#current-cloud-backend
-amplify/.config/local-*
+VinylDestinationV1/amplify/\#current-cloud-backend
+VinylDestinationV1/amplify/.config/local-*
 amplify/logs
 amplify/mock-data
 amplify/mock-api-resources
-amplify/backend/amplify-meta.json
+VinylDestinationV1/amplify/backend/amplify-meta.json
 amplify/backend/.temp
 build/
 dist/
