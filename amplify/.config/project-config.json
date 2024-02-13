@@ -6,7 +6,7 @@
     "framework": "angular",
     "config": {
       "SourceDir": "src",
-      "DistributionDir": "dist",
+      "DistributionDir": "dist/vinyl-destination-v1",
       "BuildCommand": "npm.cmd run-script build",
       "StartCommand": "ng serve"
     }
