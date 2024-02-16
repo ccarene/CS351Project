@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <head>
   <meta charset="utf-8">
   <title>Vinyl Destination</title>
@@ -13,20 +13,29 @@
       <h1>Vinyl Destination</h1>
     </div>
   </div>
-  <div class="row">
+  <div class="row"> -->
     <!-- <nav> -->
-      <div class="col-2 nav-button"><a class="board" routerLink="/next" routerLinkActive="active" ariaCurrentWhenActive="page"> <h2>All Vinyls</h2></a></div>
+      <!-- <div class="col-2 nav-button"><a class="board" routerLink="/next" routerLinkActive="active" ariaCurrentWhenActive="page"> <h2>All Vinyls</h2></a></div>
       <div class="col-2 nav-button"><a class="board" routerLink="/next" routerLinkActive="active" ariaCurrentWhenActive="page">60s</a></div>
       <div class="col-2 nav-button"><a class="board" routerLink="/next" routerLinkActive="active" ariaCurrentWhenActive="page">70s</a></div>
-      <div class="col-2 nav-button"><a class="board" routerLink="/next" routerLinkActive="active" ariaCurrentWhenActive="page">80s</a></div>
+      <div class="col-2 nav-button"><a class="board" routerLink="/next" routerLinkActive="active" ariaCurrentWhenActive="page">80s</a></div> -->
     <!-- </nav> -->
-  </div>
+  <!-- </div> -->
 
-</header>
+<!-- </header> -->
 
-<div>
+<!-- <div> -->
   <!-- The routed views render in the <router-outlet>-->
-  <router-outlet></router-outlet>
-  </div>
+  <!-- <router-outlet></router-outlet>
+  </div> -->
 
-  <app-staging-api></app-staging-api>
+  <amplify-authenticator>
+    <ng-template
+      amplifySlot="authenticated"
+      let-user="user"
+      let-signOut="signOut"
+    >
+    <app-staging-api></app-staging-api>
+    <button (click)="signOut()">Sign Out</button>
+    </ng-template>
+  </amplify-authenticator>
