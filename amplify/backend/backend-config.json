@@ -1,34 +1,107 @@
 {
   "auth": {
-    "cs351projectfaca8316": {
+    "cs351project8d25c421": {
       "customAuth": false,
       "dependsOn": [],
-      "frontendAuthConfig": {
-        "mfaConfiguration": "OFF",
-        "mfaTypes": [
-          "SMS"
-        ],
-        "passwordProtectionSettings": {
-          "passwordPolicyCharacters": [],
-          "passwordPolicyMinLength": 8
-        },
-        "signupAttributes": [
-          "EMAIL"
-        ],
-        "socialProviders": [],
-        "usernameAttributes": [],
-        "verificationMechanisms": [
-          "EMAIL"
-        ]
-      },
       "providerPlugin": "awscloudformation",
-      "service": "Cognito"
+      "service": "Cognito",
+      "serviceType": "imported"
     }
   },
   "hosting": {
     "S3AndCloudFront": {
       "providerPlugin": "awscloudformation",
       "service": "S3AndCloudFront"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_cs351project8d25c421_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project8d25c421_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project8d25c421_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project8d25c421_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project8d25c421_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project8d25c421_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project8d25c421_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project8d25c421_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project8d25c421_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project8d25c421_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project8d25c421_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project8d25c421"
+        }
+      ]
     }
   }
 }
