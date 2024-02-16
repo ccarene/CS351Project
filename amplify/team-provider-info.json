@@ -16,18 +16,11 @@
         "S3AndCloudFront": {}
       },
       "auth": {
-        "cs351project8d25c421": {
-          "userPoolId": "us-east-2_pkVTvIyYm",
-          "userPoolName": "cs351projectfaca8316_userpool_faca8316-staging",
-          "webClientId": "4ehcg21sb2bfhkv17fso5r7rrm",
-          "nativeClientId": "5fuo2jnj2fm1ufmqfvs39olc5",
-          "identityPoolId": "us-east-2:7f38ea3f-6750-4851-90f5-0a2248c9dd2b",
-          "identityPoolName": "cs351projectfaca8316_identitypool_faca8316__staging",
-          "allowUnauthenticatedIdentities": false,
-          "authRoleArn": "arn:aws:iam::381492205475:role/amplify-amplify7bd199632cb64-staging-153003-authRole",
-          "authRoleName": "amplify-amplify7bd199632cb64-staging-153003-authRole",
-          "unauthRoleArn": "arn:aws:iam::381492205475:role/amplify-amplify7bd199632cb64-staging-153003-unauthRole",
-          "unauthRoleName": "amplify-amplify7bd199632cb64-staging-153003-unauthRole"
+        "cs351project40ea39fd": {
+          "userPoolId": "us-east-2_zdRO9O0Ww",
+          "userPoolName": "Vinyl Destination",
+          "webClientId": "76kc7kad1mr3sc9u84usltn6ma",
+          "nativeClientId": "76kc7kad1mr3sc9u84usltn6ma"
         }
       }
     }

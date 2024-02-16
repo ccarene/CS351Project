@@ -1,6 +1,6 @@
 {
   "auth": {
-    "cs351project8d25c421": {
+    "cs351project40ea39fd": {
       "customAuth": false,
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
@@ -15,91 +15,35 @@
     }
   },
   "parameters": {
-    "AMPLIFY_auth_cs351project8d25c421_allowUnauthenticatedIdentities": {
+    "AMPLIFY_auth_cs351project40ea39fd_nativeClientId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "cs351project8d25c421"
+          "resourceName": "cs351project40ea39fd"
         }
       ]
     },
-    "AMPLIFY_auth_cs351project8d25c421_authRoleArn": {
+    "AMPLIFY_auth_cs351project40ea39fd_userPoolId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "cs351project8d25c421"
+          "resourceName": "cs351project40ea39fd"
         }
       ]
     },
-    "AMPLIFY_auth_cs351project8d25c421_authRoleName": {
+    "AMPLIFY_auth_cs351project40ea39fd_userPoolName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "cs351project8d25c421"
+          "resourceName": "cs351project40ea39fd"
         }
       ]
     },
-    "AMPLIFY_auth_cs351project8d25c421_identityPoolId": {
+    "AMPLIFY_auth_cs351project40ea39fd_webClientId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "cs351project8d25c421"
-        }
-      ]
-    },
-    "AMPLIFY_auth_cs351project8d25c421_identityPoolName": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "cs351project8d25c421"
-        }
-      ]
-    },
-    "AMPLIFY_auth_cs351project8d25c421_nativeClientId": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "cs351project8d25c421"
-        }
-      ]
-    },
-    "AMPLIFY_auth_cs351project8d25c421_unauthRoleArn": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "cs351project8d25c421"
-        }
-      ]
-    },
-    "AMPLIFY_auth_cs351project8d25c421_unauthRoleName": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "cs351project8d25c421"
-        }
-      ]
-    },
-    "AMPLIFY_auth_cs351project8d25c421_userPoolId": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "cs351project8d25c421"
-        }
-      ]
-    },
-    "AMPLIFY_auth_cs351project8d25c421_userPoolName": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "cs351project8d25c421"
-        }
-      ]
-    },
-    "AMPLIFY_auth_cs351project8d25c421_webClientId": {
-      "usedBy": [
-        {
-          "category": "auth",
-          "resourceName": "cs351project8d25c421"
+          "resourceName": "cs351project40ea39fd"
         }
       ]
     }
