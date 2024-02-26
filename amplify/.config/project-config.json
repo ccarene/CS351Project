@@ -1,17 +1,17 @@
 {
-  "projectName": "VinylDestinationV1",
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "VinylDestinationCS35",
   "version": "3.1",
   "frontend": "javascript",
   "javascript": {
     "framework": "angular",
     "config": {
       "SourceDir": "src",
-      "DistributionDir": "dist",
+      "DistributionDir": "dist/vinyl-destination-v2",
       "BuildCommand": "npm.cmd run-script build",
       "StartCommand": "ng serve"
     }
-  },
-  "providers": [
-    "awscloudformation"
-  ]
+  }
 }

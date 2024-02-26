@@ -1,0 +1,74 @@
+{
+  "api": {
+    "apiRestV1": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "DDBInteraction"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {
+    "cs351project40ea39fd": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "function": {
+    "DDBInteraction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "providerPlugin": "awscloudformation",
+      "service": "S3AndCloudFront"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_cs351project40ea39fd_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project40ea39fd"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project40ea39fd_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project40ea39fd"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project40ea39fd_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project40ea39fd"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cs351project40ea39fd_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cs351project40ea39fd"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/DDBInteraction": {
+      "name": "/DDBInteraction",
+      "lambdaFunction": "DDBInteraction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

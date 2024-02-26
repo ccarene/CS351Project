@@ -1,0 +1,25 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vinyldestinationcs35-staging-161953-authRole",
+      "UnauthRoleArn": "arn:aws:iam::381492205475:role/amplify-vinyldestinationcs35-staging-161953-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::381492205475:role/amplify-vinyldestinationcs35-staging-161953-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-vinyldestinationcs35-staging-161953-deployment",
+      "UnauthRoleName": "amplify-vinyldestinationcs35-staging-161953-unauthRole",
+      "StackName": "amplify-vinyldestinationcs35-staging-161953",
+      "StackId": "arn:aws:cloudformation:us-east-2:381492205475:stack/amplify-vinyldestinationcs35-staging-161953/0bbc10f0-d0d5-11ee-9d18-0a243a7adf6b",
+      "AmplifyAppId": "d2ijykbklvh3f7"
+    },
+    "categories": {
+      "auth": {
+        "cs351project40ea39fd": {
+          "userPoolId": "us-east-2_zdRO9O0Ww",
+          "userPoolName": "Vinyl Destination",
+          "webClientId": "76kc7kad1mr3sc9u84usltn6ma",
+          "nativeClientId": "76kc7kad1mr3sc9u84usltn6ma"
+        }
+      }
+    }
+  }
+}
