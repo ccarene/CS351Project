@@ -1,0 +1,61 @@
+{
+  "hash": "d4b94d57",
+  "configHash": "bd673256",
+  "lockfileHash": "2cfbe305",
+  "browserHash": "c98e7d88",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "b4ed8f7d",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "8e6db10d",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "f437652d",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "d6264cef",
+      "needsInterop": false
+    },
+    "@aws-amplify/ui-angular": {
+      "src": "../../../../../node_modules/@aws-amplify/ui-angular/fesm2020/aws-amplify-ui-angular.mjs",
+      "file": "@aws-amplify_ui-angular.js",
+      "fileHash": "ebd8246c",
+      "needsInterop": false
+    },
+    "aws-amplify": {
+      "src": "../../../../../node_modules/aws-amplify/dist/esm/index.mjs",
+      "file": "aws-amplify.js",
+      "fileHash": "8d940b1b",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ETN6N4RE": {
+      "file": "chunk-ETN6N4RE.js"
+    },
+    "chunk-6LJCI736": {
+      "file": "chunk-6LJCI736.js"
+    },
+    "chunk-UK7UZSF6": {
+      "file": "chunk-UK7UZSF6.js"
+    },
+    "chunk-CSKLNXBZ": {
+      "file": "chunk-CSKLNXBZ.js"
+    },
+    "chunk-VOZ4REQV": {
+      "file": "chunk-VOZ4REQV.js"
+    }
+  }
+}

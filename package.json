@@ -23,7 +23,6 @@
     "@angular/ssr": "^17.2.0",
     "@aws-amplify/ui-angular": "^5.0.10",
     "aws-amplify": "^6.0.17",
-    "aws-amplify-angular": "^6.0.60",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
