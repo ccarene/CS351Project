@@ -17,7 +17,18 @@
 
 
 .nav-button{
-    outline: black;
-    outline-style: groove;
+    outline: brown;
+    outline-style: double;
     outline-width: thin;
+    text-align: center;
+}
+
+.page-header {
+    outline-width: 3px;
+    outline-color: brown;
+    outline-style: double;
+}
+
+.footer-col {
+    margin: auto;
 }

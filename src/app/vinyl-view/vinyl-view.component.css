@@ -2,17 +2,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    padding-top: 1rem;
+    width: 75%;
+    padding: 1rem;
+    outline-color: black;
+    outline-style: groove;
+    outline-width: 1px;
   }
-
-.vinylTitle{
-    /* margin: 0 0.5rem 0 0.5rem; */
-    margin: 0;
-    padding-bottom: 0.5rem;
-    max-width: 100%;
-}
-.artistText{
+  .artistText{
     text-align: end;
     text-decoration: underline;
     padding-right: 2rem;

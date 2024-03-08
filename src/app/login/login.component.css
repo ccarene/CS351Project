@@ -1,0 +1,25 @@
+.login-box {
+    height: fit-content;
+    width: 50%;
+    margin:  1rem auto 1rem auto;
+    outline-style: groove;
+    outline-color: black;
+    outline-width: 1px;
+    background-color: antiquewhite;
+    padding: 0.5rem;
+}
+
+.login-textbox{
+    margin: 1rem;
+    
+}
+
+.input-label {
+    padding: 0;
+}
+
+.log-in-button, .sign-up-button {
+    height: 2rem;
+    width: 20%;
+    margin: 0.5rem auto 0.5rem auto;
+}
